@@ -4,7 +4,7 @@
   "description": "TSLint configurations that are used by fluct division of VOYAGE GROUP, Inc.",
   "license": "MIT",
   "scripts": {
-    "test": ""
+    "test": "tslint --project ./tsconfig.json --type-check --config ./tslint.json"
   },
   "engines": {
     "node": ">6.9.1",
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/voyagegroup/tslint-config-fluct",
   "peerDependencies": {
+    "tslint": "^5.2.0"
   },
   "devDependencies": {
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
   }
 }
-
