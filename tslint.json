@@ -1,0 +1,7 @@
+{
+    "extends": [
+        "./config/basic.json",
+        "./config/typecheck.json"
+    ],
+    "defaultSeverity": "error"
+}
