@@ -1,0 +1,26 @@
+{
+  "name": "tslint-config-fluct",
+  "version": "0.0.0",
+  "description": "TSLint configurations that are used by fluct division of VOYAGE GROUP, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "test": ""
+  },
+  "engines": {
+    "node": ">6.9.1",
+    "npm": ">3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyagegroup/tslint-config-fluct.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voyagegroup/tslint-config-fluct/issues"
+  },
+  "homepage": "https://github.com/voyagegroup/tslint-config-fluct",
+  "peerDependencies": {
+  },
+  "devDependencies": {
+  }
+}
+
