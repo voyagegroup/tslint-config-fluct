@@ -9,9 +9,10 @@
         "completed-docs": false,
         "curly": true,
         "cyclomatic-complexity": false, // This is meaningless for daily working.
+        "encoding": true, // Enforce all files should be utf-8.
         "import-blacklist": [true],
         "import-spacing": true,
-        "indent": [true, "spaces"],
+        "indent": [true, "spaces", 4],
         "interface-over-type-literal": false,
         "linebreak-style": [true, "LF"],
         "max-classes-per-file": false,
@@ -64,12 +65,15 @@
         "no-var-requires": true,
         "number-literal-format": true,
         "object-literal-key-quotes": [true, "as-needed"],
+        "object-literal-sort-keys": false, // We don't think it is important.
         "one-variable-per-declaration": [true, "ignore-for-loop"],
         "only-arrow-functions": false,
+        "prefer-conditional-expression": false,
         "prefer-const": true, // Sort with voyagegroup/eslint-config-fluct
         "prefer-for-of": true,
         "prefer-function-over-method": false,
         "prefer-method-signature": false,
+        "prefer-object-spread": false, // We don't have any opinion to it...
         "prefer-switch": false,
         "prefer-template": false, // Sort with voyagegroup/eslint-config-fluct
         "quotemark": [true, "single", "jsx-single", "avoid-escape"], // Sort with voyagegroup/eslint-config-fluct
