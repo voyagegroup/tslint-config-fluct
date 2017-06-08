@@ -49,3 +49,9 @@ see also: [TSLint's document](https://palantir.github.io/tslint/usage/configurat
 
 - [The MIT License](./LICENSE.txt)
     - Original: https://opensource.org/licenses/MIT
+
+
+## Dependencies
+
+- [yarn](https://yarnpkg.com/)
+    - We uses the latest now.
