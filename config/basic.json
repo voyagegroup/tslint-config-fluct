@@ -27,6 +27,7 @@
         "no-conditional-assignment": true,
         "no-construct": true,
         "no-default-export": true,
+        "no-duplicate-imports": true,
         "no-duplicate-super": true,
         "no-duplicate-variable": true,
         "no-empty-interface": false,
@@ -53,9 +54,11 @@
 
         "no-require-imports": true,
         "no-reference-import": true,
+        "no-shadowed-variable": false,
         "no-sparse-arrays": true,
         "no-string-literal": true, // You should not disable this at global easily.
         "no-string-throw": true,
+        "no-submodule-imports": false,
         "no-switch-case-fall-through": true,
         "no-this-assignment": true,
         "no-trailing-whitespace": true,
@@ -84,6 +87,7 @@
         "space-before-function-paren": [true, {
             "named": "never"
         }],
+        "space-within-parens": false,
         "switch-final-break": [true, "always"],
         "triple-equals": true,
         "typeof-compare": true,
