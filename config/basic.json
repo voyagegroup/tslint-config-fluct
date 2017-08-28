@@ -52,6 +52,7 @@
         // We should do more discussion in https://github.com/voyagegroup/tslint-config-fluct/issues/8
         "no-parameter-properties": true,
 
+        "no-parameter-reassignment": true,
         "no-require-imports": true,
         "no-reference-import": true,
         "no-shadowed-variable": false,
