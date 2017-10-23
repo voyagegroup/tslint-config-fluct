@@ -91,7 +91,6 @@
         "space-within-parens": false,
         "switch-final-break": [true, "always"],
         "triple-equals": true,
-        "typeof-compare": true,
         "unified-signatures": false,
         "use-isnan": true,
         "variable-name": [true,
