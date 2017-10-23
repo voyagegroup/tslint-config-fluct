@@ -29,6 +29,7 @@
         "no-default-export": true,
         "no-duplicate-imports": true,
         "no-duplicate-super": true,
+        "no-duplicate-switch-case": true, // This would be the possible error.         
         "no-duplicate-variable": true,
         "no-empty-interface": false,
         "no-eval": true,
