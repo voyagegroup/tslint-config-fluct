@@ -97,7 +97,7 @@
         "prefer-template": false, // Sort with voyagegroup/eslint-config-fluct
         "quotemark": [true, "single", "jsx-single", "avoid-escape"], // Sort with voyagegroup/eslint-config-fluct
         "radix": true,
-        "semicolon": [true, "always"],
+        "semicolon": [true, "always", "strict-bound-class-methods"],
         "space-before-function-paren": [true, {
             "named": "never"
         }],
