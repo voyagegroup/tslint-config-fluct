@@ -55,6 +55,7 @@
         "no-parameter-properties": true,
 
         "no-parameter-reassignment": true,
+        "no-redundant-jsdoc": false,
         "no-require-imports": true,
         "no-return-await": true, // Sort with https://github.com/voyagegroup/eslint-config-fluct
         "no-reference-import": true,
