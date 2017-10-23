@@ -34,6 +34,10 @@
         "no-duplicate-variable": true,
         "no-empty-interface": false,
         "no-eval": true,
+        // In almost case, TypeScript code is used only for production code,
+        // We use plain JavaScript for tools in our repository. So I don't check `devDependencies`.
+        // See https://palantir.github.io/tslint/rules/no-implicit-dependencies/ 
+        "no-implicit-dependencies": true,
         "no-import-side-effect": false,
         "no-internal-module": true,
         "no-invalid-template-strings": true,
