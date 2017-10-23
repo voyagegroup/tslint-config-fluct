@@ -54,6 +54,7 @@
 
         "no-parameter-reassignment": true,
         "no-require-imports": true,
+        "no-return-await": true, // Sort with https://github.com/voyagegroup/eslint-config-fluct
         "no-reference-import": true,
         "no-shadowed-variable": false,
         "no-sparse-arrays": true,
