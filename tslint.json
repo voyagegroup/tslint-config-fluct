@@ -3,5 +3,8 @@
         "./config/basic.json",
         "./config/typecheck.json"
     ],
-    "defaultSeverity": "error"
+    "defaultSeverity": "error",
+    "linterOptions": {
+        "exclude": []
+    }
 }
