@@ -28,7 +28,7 @@
 {
     "extends": [
         "./node_modules/tslint-config-fluct/config/basic.json", // builtin basic rules.
-        "./node_modules/tslint-config-fluct/config/typecheck.js" // builtin typecheck rules.
+        "./node_modules/tslint-config-fluct/config/typecheck.json" // builtin typecheck rules.
     ],
 
     "defaultSeverity": "warning",
