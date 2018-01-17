@@ -22,6 +22,7 @@
         "member-ordering": [true, "variables-before-functions"],
         "new-parens": true,
         "newline-before-return": false,
+        "newline-per-chained-call": false,
         "no-angle-bracket-type-assertion": true,
         "no-any": true, // Please opt-out this rule if you'd like to use this rule.
         "no-arg": true,
@@ -32,6 +33,7 @@
         "no-duplicate-super": true,
         "no-duplicate-switch-case": true, // This would be the possible error.         
         "no-duplicate-variable": true,
+        "no-dynamic-delete": true, // https://github.com/voyagegroup/tslint-config-fluct/issues/41#issuecomment-357874370
         "no-empty-interface": false,
         "no-eval": true,
         // In almost case, TypeScript code is used only for production code,
