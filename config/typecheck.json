@@ -15,6 +15,7 @@
         // "no-unused-variable": false,
         // "no-use-before-declare": false,
         // "no-void-expression": false,
+        // "prefer-readonly": true,
         // "promise-function-async": false,
         // "restrict-plus-operands": false,
         // "return-undefined": false,
