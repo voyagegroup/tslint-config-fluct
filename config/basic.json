@@ -19,7 +19,16 @@
         "linebreak-style": [true, "LF"],
         "max-classes-per-file": false,
         "max-file-line-count": false, // This is meaningless today.
-        "member-ordering": [true, "variables-before-functions"],
+        // - I don't think it's not efffective to sort the order by public/private/protected.
+        "member-ordering": [true, {
+            "order": [
+              "static-field",
+              "static-method",
+              "instance-field",
+              "constructor",
+              "instance-method"
+            ]
+        }],
         "new-parens": true,
         "newline-before-return": false,
         "newline-per-chained-call": false,
