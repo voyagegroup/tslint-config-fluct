@@ -8,6 +8,7 @@
         "binary-expression-operand-order": false, // We don't think it is important.
         "callable-types": true,
         "class-name": true,
+        "comment-format": false, // We don't have to sort it in this lint.
         "completed-docs": false,
         "curly": true,
         "cyclomatic-complexity": false, // This is meaningless for daily working.
@@ -43,6 +44,9 @@
         "no-duplicate-switch-case": true, // This would be the possible error.         
         "no-duplicate-variable": true,
         "no-dynamic-delete": true, // https://github.com/voyagegroup/tslint-config-fluct/issues/41#issuecomment-357874370
+        // Sort with eslint-config-fluct.
+        // ref: `no-empty` and `no-empty-function`
+        "no-empty": [true, "allow-empty-functions"],
         "no-empty-interface": false,
         "no-eval": true,
         // In almost case, TypeScript code is used only for production code,
@@ -106,6 +110,7 @@
         "prefer-object-spread": false, // We don't have any opinion to it...
         "prefer-switch": false,
         "prefer-template": false, // Sort with voyagegroup/eslint-config-fluct
+        "prefer-while": true,
         "quotemark": [true, "single", "jsx-single", "avoid-escape"], // Sort with voyagegroup/eslint-config-fluct
         "radix": true,
         "semicolon": [true, "always", "strict-bound-class-methods"],
